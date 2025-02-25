@@ -66,3 +66,13 @@ modules:
     generate:
       run_build_runner: true
       overwrite: false
+  - env:
+      architecture: modules
+      template: package
+      base: packages/camera/lib/src
+      path: packages/camera
+      name: camera
+      flutter_version: 3.27.1
+    generate:
+      run_build_runner: true
+      overwrite: false

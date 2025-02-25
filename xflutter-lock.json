@@ -490,6 +490,19 @@
           "pr": []
         }
       ]
+    },
+    {
+      "id": "1740455112737634",
+      "utc": "2025-02-25T03:45:12.737688Z",
+      "e": {
+        "a": "modules",
+        "t": "package",
+        "b": "packages/camera/lib/src",
+        "p": "packages/camera",
+        "n": "camera",
+        "fv": "3.27.1"
+      },
+      "mo": []
     }
   ]
 }
