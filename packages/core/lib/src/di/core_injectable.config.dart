@@ -52,7 +52,8 @@ extension GetItInjectableX on _i174.GetIt {
       () => coreModule.productionEnvironment,
       registerFor: {_prod},
     );
-    gh.lazySingleton<_i361.Dio>(() => coreModule.provideDio(gh<_i438.AppEnvironment>()));
+    gh.lazySingleton<_i361.Dio>(
+        () => coreModule.provideDio(gh<_i438.AppEnvironment>()));
     return this;
   }
 }

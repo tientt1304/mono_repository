@@ -25,7 +25,10 @@ class BaseAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       elevation: 1,
-      title: Text(title ?? ''),
+      title: Text(
+        title ?? '',
+        style: TextStyle(color: Colors.black),
+      ),
       centerTitle: true,
       titleTextStyle: titleTextStyle,
       leading: AppBackButton(force: backVisibility),

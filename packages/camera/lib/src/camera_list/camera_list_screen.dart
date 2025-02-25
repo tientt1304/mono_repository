@@ -7,6 +7,7 @@ import 'package:flutterx_live_data/flutterx_live_data.dart';
 import './viewmodels/camera_list_viewmodel.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:core/core.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 @RoutePage(name: 'cameraList')
 class CameraListScreen extends StatefulWidget {
@@ -24,9 +25,19 @@ class _CameraListScreenState extends State<CameraListScreen>
       children: [
         // screen body
         Scaffold(
-          appBar: BaseAppBar(title: 'camera_list'.trim()),
+          appBar: BaseAppBar(title: 'camera_list'.tr()),
           body: SafeArea(
-            child: SizedBox(),
+            child: GestureDetector(
+              onTap: () {},
+              child: Container(
+                height: 200,
+                width: 200,
+                color: Colors.green[100],
+                child: Center(
+                  child: Text('Camera List Screen'),
+                ),
+              ),
+            ),
           ),
         ),
 

@@ -13,7 +13,8 @@ part of 'app_router.dart';
 /// generated route for
 /// [CameraListScreen]
 class CameraList extends PageRouteInfo<void> {
-  const CameraList({List<PageRouteInfo>? children}) : super(CameraList.name, initialChildren: children);
+  const CameraList({List<PageRouteInfo>? children})
+    : super(CameraList.name, initialChildren: children);
 
   static const String name = 'CameraList';
 

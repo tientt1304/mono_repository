@@ -29,6 +29,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   camera:
+    path: ../../packages/camera
   flutterx_live_data: ^1.9.6
   flutter_native_splash: ^2.4.1
   easy_localization: ^3.0.1

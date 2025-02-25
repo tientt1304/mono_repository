@@ -9,10 +9,10 @@ part 'app_router.gr.dart';
 class AppRouter extends RootStackRouter {
   @override
   List<AutoRoute> get routes => [
+        RedirectRoute(path: '/', redirectTo: '/camera_list'),
         AutoRoute(
           path: '/camera_list',
           page: CameraList.page,
-          initial: true,
         ),
       ];
 }

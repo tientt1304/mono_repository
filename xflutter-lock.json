@@ -82,6 +82,41 @@
           "p": "main.dart",
           "e": false,
           "pr": []
+        },
+        {
+          "id": "1740465310202622",
+          "cn": "",
+          "p": "home/viewmodels/home_viewmodel.dart",
+          "e": false,
+          "pr": []
+        },
+        {
+          "id": "1740465310227646",
+          "cn": "",
+          "p": "home/viewmodels/home_params.dart",
+          "e": false,
+          "pr": []
+        },
+        {
+          "id": "1740465310229687",
+          "cn": "",
+          "p": "home/widgets/.gitkeep",
+          "e": false,
+          "pr": []
+        },
+        {
+          "id": "1740465310234330",
+          "cn": "",
+          "p": "home/home_screen.dart",
+          "e": false,
+          "pr": []
+        },
+        {
+          "id": "1740465310243533",
+          "cn": "",
+          "p": "common/di/app_injectable.config.dart",
+          "e": false,
+          "pr": []
         }
       ]
     },
