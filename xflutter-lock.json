@@ -1,0 +1,495 @@
+{
+  "w": "mono_repository",
+  "m": [
+    {
+      "id": "1740454574122610",
+      "utc": "2025-02-25T03:36:14.122808Z",
+      "e": {
+        "a": "modules",
+        "t": "app",
+        "b": "apps/green_villas/lib",
+        "p": "apps/green_villas",
+        "n": "green_villas",
+        "fv": "3.27.1"
+      },
+      "mo": [
+        {
+          "id": "1740454574135295",
+          "cn": "",
+          "p": "flutter_native_splash.yaml",
+          "e": false,
+          "pr": []
+        },
+        {
+          "id": "1740454574137455",
+          "cn": "",
+          "p": "flutter_launcher_icons.yaml",
+          "e": false,
+          "pr": []
+        },
+        {
+          "id": "1740454574139759",
+          "cn": "",
+          "p": "assets/localization/en.json",
+          "e": false,
+          "pr": []
+        },
+        {
+          "id": "1740454574141581",
+          "cn": "",
+          "p": "assets/images/.gitkeep",
+          "e": false,
+          "pr": []
+        },
+        {
+          "id": "1740454574142422",
+          "cn": "",
+          "p": "assets/svgs/.gitkeep",
+          "e": false,
+          "pr": []
+        },
+        {
+          "id": "1740454574143201",
+          "cn": "",
+          "p": "common/router/app_router.dart",
+          "e": false,
+          "pr": []
+        },
+        {
+          "id": "1740454574150915",
+          "cn": "",
+          "p": "build.yaml",
+          "e": false,
+          "pr": []
+        },
+        {
+          "id": "1740454574152059",
+          "cn": "",
+          "p": "common/di/app_injectable.dart",
+          "e": false,
+          "pr": []
+        },
+        {
+          "id": "1740454574197728",
+          "cn": "",
+          "p": "common/di/modules/app_module.dart",
+          "e": false,
+          "pr": []
+        },
+        {
+          "id": "1740454715861556",
+          "cn": "",
+          "p": "main.dart",
+          "e": false,
+          "pr": []
+        }
+      ]
+    },
+    {
+      "id": "1740454596785283",
+      "utc": "2025-02-25T03:36:36.785347Z",
+      "e": {
+        "a": "layers",
+        "t": "package",
+        "b": "packages/core/lib/src",
+        "p": "packages/core",
+        "n": "core",
+        "fv": "3.27.1"
+      },
+      "mo": [
+        {
+          "id": "1740454596811795",
+          "cn": "",
+          "p": "build.yaml",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596815237",
+          "cn": "",
+          "p": "di/core_injectable.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596832652",
+          "cn": "",
+          "p": "di/modules/core_module.dart",
+          "e": true,
+          "pr": [
+            {
+              "t": "provideDio",
+              "n": "",
+              "nullable": false,
+              "l": false
+            }
+          ]
+        },
+        {
+          "id": "1740454596834714",
+          "cn": "",
+          "p": "data/models/responses/base_response/base_response.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596837287",
+          "cn": "",
+          "p": "data/models/responses/list_response/list_response.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596839075",
+          "cn": "",
+          "p": "data/models/ui_models/ui_message/ui_message.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596840438",
+          "cn": "",
+          "p": "utilities/ui/ui.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596842275",
+          "cn": "",
+          "p": "utilities/di/dependency_locator.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596844423",
+          "cn": "",
+          "p": "utilities/async/debouncer.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596845773",
+          "cn": "",
+          "p": "utilities/network/connectivity.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596848140",
+          "cn": "",
+          "p": "extensions/di_extension.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596849759",
+          "cn": "",
+          "p": "extensions/view_extension.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596850961",
+          "cn": "",
+          "p": "extensions/assets_extension.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596852076",
+          "cn": "",
+          "p": "extensions/nullable_extension.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596853447",
+          "cn": "",
+          "p": "extensions/live_data_extension.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596854711",
+          "cn": "",
+          "p": "extensions/reactive_form_extension.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596855873",
+          "cn": "",
+          "p": "events/event_bus.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596857542",
+          "cn": "",
+          "p": "storage/storage.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596888152",
+          "cn": "",
+          "p": "storage/secure_storage.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596890341",
+          "cn": "",
+          "p": "extensions/theme_extension.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454596891848",
+          "cn": "",
+          "p": "ui/resources/colors/colors.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454650568963",
+          "cn": "",
+          "p": "ui/resources/colors/dark_colors.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680900861",
+          "cn": "",
+          "p": "ui/resources/themes/theme.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680904695",
+          "cn": "",
+          "p": "ui/resources/themes/dark_theme.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680908045",
+          "cn": "",
+          "p": "ui/resources/dimensions/dimensions.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680913302",
+          "cn": "",
+          "p": "ui/resources/themes/theme_notifier.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680919171",
+          "cn": "",
+          "p": "ui/widgets/text_fields/customized_text_form_field.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680921523",
+          "cn": "",
+          "p": "ui/widgets/text_fields/customized_reactive_text_field.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680924351",
+          "cn": "",
+          "p": "ui/widgets/text_fields/customized_reactive_phone_field.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680926940",
+          "cn": "",
+          "p": "utilities/validators/matching_validator.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680928318",
+          "cn": "",
+          "p": "ui/widgets/buttons/back_button.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680929919",
+          "cn": "",
+          "p": "ui/widgets/core/theme_widget.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680931337",
+          "cn": "",
+          "p": "ui/widgets/core/base_scaffold.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680932546",
+          "cn": "",
+          "p": "ui/widgets/core/base_scrollview.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680933610",
+          "cn": "",
+          "p": "ui/widgets/core/base_appbar.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680935203",
+          "cn": "",
+          "p": "ui/widgets/blur_widget.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454680936514",
+          "cn": "",
+          "p": "ui/widgets/infinite_scroll_view/infinite_scroll_view.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681521918",
+          "cn": "",
+          "p": "ui/widgets/infinite_scroll_view/pagination_error_widget.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681526608",
+          "cn": "",
+          "p": "ui/widgets/infinite_scroll_view/pagination_load_widget.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681529119",
+          "cn": "",
+          "p": "ui/widgets/loaders/full_screen_loader.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681530691",
+          "cn": "",
+          "p": "ui/widgets/loaders/live_data_loader.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681532674",
+          "cn": "",
+          "p": "ui/widgets/loaders/loader.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681536329",
+          "cn": "",
+          "p": "ui/widgets/buttons/text_button.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681538707",
+          "cn": "",
+          "p": "ui/widgets/buttons/customized_button.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681540744",
+          "cn": "",
+          "p": "ui/widgets/animations/customized_animated_widget.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681542754",
+          "cn": "",
+          "p": "ui/widgets/animations/animated_column.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681544137",
+          "cn": "",
+          "p": "data/models/di/di_scope/di_scope.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681545782",
+          "cn": "",
+          "p": "viewmodels/base_params.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681548968",
+          "cn": "",
+          "p": "viewmodels/base_viewmodel.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681551204",
+          "cn": "",
+          "p": "ui/widgets/instance/lifecycle_owner.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681552938",
+          "cn": "",
+          "p": "ui/widgets/instance/instance_builder.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681553824",
+          "cn": "",
+          "p": "ui/widgets/instance/lifecycle_provider.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681555246",
+          "cn": "",
+          "p": "environments/environments.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681565153",
+          "cn": "",
+          "p": "utilities/network/http_interceptor.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740454681787157",
+          "cn": "",
+          "p": "data/repositories/base_repository.dart",
+          "e": true,
+          "pr": []
+        }
+      ]
+    }
+  ]
+}

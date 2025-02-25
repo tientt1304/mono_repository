@@ -1,0 +1,6 @@
+name: mono_repository
+environment:
+  sdk: ^3.6.0
+dev_dependencies:
+  build_runner: ^2.4.11
+  melos: ^6.1.0
