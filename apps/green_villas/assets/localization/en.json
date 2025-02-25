@@ -1,4 +1,5 @@
 {
   "app_name": "GreenVillas",
-  "check_internet_connection": "Check Your Internet Connection"
+  "check_internet_connection": "Check Your Internet Connection",
+  "camera_list": "Camera List"
 }

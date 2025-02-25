@@ -502,7 +502,64 @@
         "n": "camera",
         "fv": "3.27.1"
       },
-      "mo": []
+      "mo": [
+        {
+          "id": "1740455337109930",
+          "cn": "",
+          "p": "camera_list/viewmodels/camera_list_viewmodel.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740455337139932",
+          "cn": "",
+          "p": "camera_list/viewmodels/camera_list_params.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740455337141253",
+          "cn": "",
+          "p": "camera_list/widgets/.gitkeep",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740455337142717",
+          "cn": "",
+          "p": "build.yaml",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740455337143952",
+          "cn": "",
+          "p": "common/di/camera_injectable.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740455337153237",
+          "cn": "",
+          "p": "common/di/modules/camera_module.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740455337154679",
+          "cn": "",
+          "p": "common/router/app_router.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740455337157710",
+          "cn": "",
+          "p": "camera_list/camera_list_screen.dart",
+          "e": true,
+          "pr": []
+        }
+      ]
     }
   ]
 }
