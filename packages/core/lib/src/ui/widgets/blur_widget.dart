@@ -26,7 +26,7 @@ class BlurWidget extends StatelessWidget {
           child: Container(
             width: width,
             height: height,
-            color: Colors.black.withOpacity(0.35),
+            color: Colors.black.withValues(alpha: 0.35),
           ),
         ),
       ),

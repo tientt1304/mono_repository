@@ -4,9 +4,12 @@
 import 'package:dio/dio.dart';
 import 'package:core/src/events/event_bus.dart';
 
+import '../../../core.dart';
+
 class HttpInterceptor extends InterceptorsWrapper {
   @override
-  void onRequest(RequestOptions options, RequestInterceptorHandler handler) async {
+  void onRequest(
+      RequestOptions options, RequestInterceptorHandler handler) async {
     final httpHeaders = {
       'Accept': 'application/json',
       // TODO: add authorization token to http-headers

@@ -11,7 +11,8 @@ import 'package:core/src/utilities/network/connectivity.dart';
 
 abstract class BaseRepository {
   final List<CancelToken> cancelTokens = [];
-  bool get isConnectingToInternet => GetIt.instance<AppConnectivity>().isConnected.value;
+  bool get isConnectingToInternet =>
+      GetIt.instance<AppConnectivity>().isConnected.value;
 
   /// call request only if device connected to internet, else return null data response
   Future<BaseResponse<T>> getResponse<T>(
@@ -20,7 +21,8 @@ abstract class BaseRepository {
   }) async {
     if (isConnectingToInternet) {
       if (cancelToken != null) cancelTokens.add(cancelToken);
-      final response = await request().onError((error, stackTrace) => catchError<T>(error));
+      final response =
+          await request().onError((error, stackTrace) => catchError<T>(error));
       if (cancelToken != null) cancelTokens.remove(cancelToken);
       if (response.statusCode == 401) {
         eventBus.fire(const UnauthorizedEvent());

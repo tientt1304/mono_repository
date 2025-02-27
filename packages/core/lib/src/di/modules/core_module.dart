@@ -19,7 +19,7 @@ abstract class CoreModule {
         connectTimeout: const Duration(seconds: 60),
         receiveTimeout: const Duration(seconds: 60),
         sendTimeout: const Duration(seconds: 60),
-        baseUrl: '${environment.baseUrl}/api',
+        baseUrl: environment.baseUrl,
       )
       ..interceptors.addAll([
         HttpInterceptor(),
@@ -53,5 +53,6 @@ abstract class CoreModule {
 
   @preResolve
   @lazySingleton
-  Future<SharedPreferences> provideSharedPreferences() => SharedPreferences.getInstance();
+  Future<SharedPreferences> provideSharedPreferences() =>
+      SharedPreferences.getInstance();
 }

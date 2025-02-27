@@ -24,7 +24,6 @@ class _HomeScreenState extends State<HomeScreen>
   @override
   void initState() {
     // TODO: implement initState
-    print('111111 init State');
     super.initState();
   }
 
@@ -39,7 +38,6 @@ class _HomeScreenState extends State<HomeScreen>
           color: isRed ? Colors.red[500] : Colors.amber[100],
           child: GestureDetector(
             onTap: () {
-              print('11111 HomeScreen onTap');
               appRouter.pushNamed('/camera_list');
             },
             child: Center(

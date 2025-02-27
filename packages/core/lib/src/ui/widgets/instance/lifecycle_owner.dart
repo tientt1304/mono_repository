@@ -12,7 +12,8 @@ import 'package:core/src/data/models/di/di_scope/di_scope.dart';
 
 /// manage widget life-cycle with your state-holder (viewModel) and observing data,
 /// and drop passed scope when widget destroyed.
-mixin LifecycleOwner<T extends StatefulWidget, VM extends BaseViewModel> on State<T> implements ObserverMixin {
+mixin LifecycleOwner<T extends StatefulWidget, VM extends BaseViewModel>
+    on State<T> implements ObserverMixin {
   late VM viewModel;
 
   /// [DiScope] that [LifecycleOwner] will take care, register it on [initState] and drop it on [dispose]

@@ -2,5 +2,11 @@
   "app_name": "GreenVillas",
   "check_internet_connection": "Check Your Internet Connection",
   "camera_list": "Camera List",
-  "home": "Home"
+  "home": "Home",
+  "phone": "Phone",
+  "next": "Next",
+  "resend_code": "Resend Code",
+  "please_enter_code": "Please enter the code we’ve sent to ",
+  "code_resent": "The code has been re-sent",
+  "verify_pin_code": "Verify Pin Code"
 }

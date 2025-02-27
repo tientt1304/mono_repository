@@ -18,7 +18,7 @@ class TestEnvironment extends AppEnvironment {
 
 class DevelopmentEnvironment extends AppEnvironment {
   @override
-  String get baseUrl => 'https://development.backend.com';
+  String get baseUrl => 'https://mapidev.takas.vn/api/app/v1';
 }
 
 class ProductionEnvironment extends AppEnvironment {

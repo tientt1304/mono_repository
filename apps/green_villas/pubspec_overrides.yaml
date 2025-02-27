@@ -1,6 +1,8 @@
-# melos_managed_dependency_overrides: core,camera
+# melos_managed_dependency_overrides: core,camera,authentication
 dependency_overrides:
   core:
     path: ../../packages/core
   camera:
     path: ../../packages/camera
+  authentication:
+    path: ../../packages/authentication

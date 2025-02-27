@@ -539,14 +539,14 @@
       },
       "mo": [
         {
-          "id": "1740455337109930",
+          "id": "1740620045165638",
           "cn": "",
           "p": "camera_list/viewmodels/camera_list_viewmodel.dart",
           "e": true,
           "pr": []
         },
         {
-          "id": "1740455337139932",
+          "id": "1740620045165642",
           "cn": "",
           "p": "camera_list/viewmodels/camera_list_params.dart",
           "e": true,
@@ -567,30 +567,156 @@
           "pr": []
         },
         {
-          "id": "1740455337143952",
+          "id": "1740620045165159",
           "cn": "",
           "p": "common/di/camera_injectable.dart",
           "e": true,
           "pr": []
         },
         {
-          "id": "1740455337153237",
+          "id": "1740620045165624",
           "cn": "",
           "p": "common/di/modules/camera_module.dart",
           "e": true,
           "pr": []
         },
         {
-          "id": "1740455337154679",
+          "id": "1740620045165630",
           "cn": "",
           "p": "common/router/app_router.dart",
           "e": true,
           "pr": []
         },
         {
-          "id": "1740455337157710",
+          "id": "1740620045165634",
           "cn": "",
           "p": "camera_list/camera_list_screen.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620045165616",
+          "cn": "",
+          "p": "common/di/camera_injectable.config.dart",
+          "e": true,
+          "pr": []
+        }
+      ]
+    },
+    {
+      "id": "1740619903578071",
+      "utc": "2025-02-27T01:31:43.578131Z",
+      "e": {
+        "a": "modules",
+        "t": "package",
+        "b": "packages/authentication/lib/src",
+        "p": "packages/authentication",
+        "n": "authentication",
+        "fv": "3.27.1"
+      },
+      "mo": [
+        {
+          "id": "1740620030993394",
+          "cn": "",
+          "p": "modules/authentication/data/models/responses/.gitkeep",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620031002181",
+          "cn": "",
+          "p": "json/auth/login_request.json",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620035774320",
+          "cn": "",
+          "p": "json/auth/verify_code_request.json",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620040049574",
+          "cn": "",
+          "p": "json/auth/get_verification_code_request.json",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620045042472",
+          "cn": "",
+          "p": "common/di/authentication_injectable.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620045050022",
+          "cn": "",
+          "p": "common/di/modules/authentication_module.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620045052993",
+          "cn": "",
+          "p": "modules/authentication/data/data_sources/remote/authentication/authentication_remote_data_source.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620045059511",
+          "cn": "",
+          "p": "modules/authentication/data/models/requests/login_request/login_request.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620045061008",
+          "cn": "",
+          "p": "modules/authentication/data/models/requests/verify_code_request/verify_code_request.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620045062520",
+          "cn": "",
+          "p": "modules/authentication/data/models/requests/get_verification_code_request/get_verification_code_request.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620045074937",
+          "cn": "",
+          "p": "modules/authentication/data/repositories/authentication/authentication_repository.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620045077288",
+          "cn": "",
+          "p": "modules/authentication/data/repositories/authentication/authentication_repository_impl.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620045152559",
+          "cn": "",
+          "p": "common/mediators/controllers/authentication_controller.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620051359770",
+          "cn": "",
+          "p": "common/ui/widgets/text_fields/pin_code_field.dart",
+          "e": true,
+          "pr": []
+        },
+        {
+          "id": "1740620051361206",
+          "cn": "",
+          "p": "common/ui/widgets/text_fields/verify_pin_code_widget.dart",
           "e": true,
           "pr": []
         }

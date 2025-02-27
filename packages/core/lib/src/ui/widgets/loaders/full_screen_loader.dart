@@ -10,7 +10,7 @@ class FullScreenLoader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black.withOpacity(0.05),
+      backgroundColor: Colors.black.withValues(alpha: .05),
       body: const Center(child: Loader()),
     );
   }

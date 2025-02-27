@@ -3,6 +3,7 @@
 // more info: https://xflutter-cli.com
 import 'package:green_villas/home/home_screen.dart';
 import 'package:camera/camera.dart' as camera;
+import 'package:authentication/authentication.dart' as auth;
 import 'package:auto_route/auto_route.dart';
 part 'app_router.gr.dart';
 
@@ -10,12 +11,12 @@ part 'app_router.gr.dart';
 class AppRouter extends RootStackRouter {
   @override
   List<AutoRoute> get routes => [
-        RedirectRoute(path: '/', redirectTo: '/home'),
+        RedirectRoute(path: '/', redirectTo: '/login'),
         AutoRoute(
           path: '/home',
           page: Home.page,
-          initial: true,
         ),
+        ...auth.AppRouter().routes,
         ...camera.AppRouter().routes,
       ];
 }

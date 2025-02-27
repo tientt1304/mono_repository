@@ -6,5 +6,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class AppStorage {
   /// get global instance from [SharedPreferences]
-  static SharedPreferences get _preferences => GetIt.instance.get<SharedPreferences>();
+  static SharedPreferences get _preferences =>
+      GetIt.instance.get<SharedPreferences>();
 }

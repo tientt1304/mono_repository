@@ -1,0 +1,9 @@
+# melos_managed_dependency_overrides: camera,core
+dependency_overrides:
+  camera:
+    path: ../camera
+  core:
+    path: ../core
+  green_villas:
+    path: ../../apps/green_villas
+

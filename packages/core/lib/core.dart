@@ -1,4 +1,4 @@
-library core;
+library;
 
 export 'src/di/core_injectable.dart';
 export 'src/di/modules/core_module.dart';
